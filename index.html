@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/app.js"></script>
+    <title>TriviaGame</title>
+</head>
+<body style="background: url(./assets/images/tileable_wood_texture.png)">
+      <div class="container">
+        <h1 class="display-4" style="text-align: center; font-family: comic sans Ms, comic sans, cursive;">Totally Trivial Trivia!</h1>
+      </div>
+      <br>
+      <div id="wrapper" style="text-align: center;">
+       <div id="display" style="font-size: 75px; font-family: comic sans Ms, comic sans, cursive;">00:00</div>
+        <div id="buttons">
+          <button id="score" style="background-color: blue; border: blue; color: white;">Score</button>
+        </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">Who played Joker in Batman Dark Knight?</h5>
+          <div class="container" style="margin: 0 auto; width: 580px;">
+           <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">Adam Miner</button>
+           <button type="button" class="correct" style="background-color: red; border: red; color: white;">Heath Ledger</button>
+           <button type="button" class="incorrect" style="background-color: green; border: green; color: white;">Mark Wahlberg</button>
+           <button type="button" class="incorrect" style="background-color: gold; border: gold; color: white;">Will Smith</button>
+           <button type="button" class="incorrect" style="background-color: blue; border: blue; color: white;">Seth Rogan</button>
+          </div>
+         </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">What is the capital of California?</h5>
+          <div class="container" style="margin: 0 auto; width: 520px;">
+           <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">Marysville</button>
+           <button type="button" class="incorrect" style="background-color: red; border: red; color: white;">Los Angeles</button>
+           <button type="button" class="incorrect" style="background-color: green; border: green; color: white;">San Diego</button>
+           <button type="button" class="correct" style="background-color: gold; border: gold; color: white;">Sacramento</button>
+           <button type="button" class="incorrect" style=" background-color: blue; border: blue; color: white;">Yuba City</button>
+          </div>
+         </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">Who is the current 3rd Baseman for the Colorado Rockies MLB team?</h5>
+         <div class="container" style="margin: 0 auto; width: 630px;">
+          <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">Trevor Story</button>
+          <button type="button" class="correct" style="background-color: red; border: red; color: white;">Nolan Arenado</button>
+          <button type="button" class="incorrect" style="background-color: green; border: green; color: white;">Ian Desmond</button>
+          <button type="button" class="incorrect" style="background-color: gold; border: gold; color: white;">Charlie Blackmon</button>
+          <button type="button" class="incorrect" style="background-color: blue; border: blue; color: white;">Wade Davis</button>
+         </div>
+        </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">What city are the pyramids of Egypt located?</h5>
+         <div class="container" style="margin: 0 auto; width: 350px;">
+          <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">Cairo</button>
+           <button type="button" class="incorrect" style="background-color: red; border: red; color: white;">Luxor</button>
+           <button type="button" class="correct" style="background-color: green; border: green; color: white;">Giza</button>
+           <button type="button" class="incorrect" style="background-color: gold; border: gold; color: white;">Alexandria</button>
+          <button type="button" class="incorrect" style="background-color: blue; border: blue; color: white;">Aswan</button>
+         </div>
+        </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">What state is Chipotle's first mexican restraunt located?</h5>
+          <div class="container" style="margin: 0 auto; width: 410px;">
+           <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">California</button>
+           <button type="button" class="incorrect" style="background-color: red; border: red; color: white;">New York</button>
+           <button type="button" class="incorrect" style="background-color: green; border: green; color: white;">Texas</button>
+           <button type="button" class="incorrect" style="background-color: gold; border: gold; color: white;">Arizona</button>
+           <button type="button" class="correct" style="background-color: blue; border: blue; color: white;">Colorado</button>
+          </div>
+         </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+      <div class="card-body">
+         <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">How many total outs are in a 9 inning baseball game?</h5>
+          <div class="container" style="margin: 0 auto; width: 220px;">
+           <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">32</button>
+           <button type="button" class="incorrect" style="background-color: red; border: red; color: white;">20</button>
+           <button type="button" class="correct" style="background-color: green; border: green; color: white">27</button>
+           <button type="button" class="incorrect" style="background-color: gold; border: gold; color: white;">15</button>
+           <button type="button" class="incorrect" style="background-color: blue; border: blue; color: white;">40</button>
+          </div>
+         </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+        <div class="card-body">
+         <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">What sound does a cow make?</h5>
+          <div class="container" style="margin: 0 auto; width: 500px;">
+           <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">Grrrrrr!</button>
+           <button type="button" class="incorrect" style="background-color: red; border: red; color: white;">beep beep!</button>
+           <button type="button" class="correct" style="background-color: green; border: green; color: white;">Mooooo!</button>
+           <button type="button" class="incorrect" style="background-color: gold; border: gold; color: white;">Bark Bark!</button>
+           <button type="button" class="incorrect" style="background-color: blue; border: blue; color: white;">Meowwwww!</button>
+          </div>
+         </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+        <div class="card-body">
+         <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">How many Cents are in a Dollar?</h5>
+          <div class="container" style="margin: 0 auto; width: 215px;">
+           <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">75</button>
+           <button type="button" class="incorrect" style="background-color: red; border: red; color: white;">50</button>
+           <button type="button" class="incorrect" style="background-color: green; border: green; color: white;">125</button>
+           <button type="button" class="incorrect" style="background-color: gold; border: gold; color: white;">25</button>
+           <button type="button" class="correct" style="background-color: blue; border: blue; color: white;">100</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+       <div class="card-body">
+         <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">What is the elevation Of Denver, Colorado?</h5>
+         <div class="container" style="margin: 0 auto; width: 350px;">
+           <button type="button" class="correct" style="background-color: purple; border: purple; color: white;">5,280ft</button>
+           <button type="button" class="incorrect" style="background-color: red; border: red; color: white;">2,540ft</button>
+           <button type="button" class="incorrect" style="background-color: green; border: green; color: white;">1,250ft</button>
+           <button type="button" class="incorrect" style="background-color: blue; border: blue; color: white;">2,560</button>
+           <button type="button" class="incorrect" style="background-color: gold; border: gold; color: white;">3,650ft</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card" style="width: 900px; margin: 0 auto; background: url(./assets/images/carbon_fibre_v2.png)">
+       <div class="card-body">
+         <h5 class="card-title" style="text-align: center; color: white; font-family: comic sans Ms, comic sans, cursive;">What years were considered the years of the baby boomers?</h5>
+          <div class="container" style="margin: 0 auto; width: 500px;">
+            <button type="button" class="incorrect" style="background-color: purple; border: purple; color: white;">1800-1845</button>
+            <button type="button" class="incorrect"  style="background-color: red; border: red; color: white;">1920-1940</button>
+            <button type="button" class="incorrect" style="background-color: green; border: green; color: white;">1860-1890</button>
+            <button type="button" class="incorrect" style="background-color: blue; border: blue; color: white;">1990-2000</button>
+            <button type="button" class="correct" style="background-color: gold; border: gold; color: white;">1946-1964</button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
